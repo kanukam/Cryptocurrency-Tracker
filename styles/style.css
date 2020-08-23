@@ -1,0 +1,9 @@
+.img-sizing{
+    max-height: 300px;
+}
+.custom-visibility{
+    visibility: hidden;
+}
+body{
+    max-height: 100px;
+}

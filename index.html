@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Anukam's Crypto Tracker</title>
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <!--Navigation Section-->
+        <ul class="nav nav-pills nav-fill">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.coinbase.com/" target="_blank">Get Coins</a>
+          </li>
+        </ul>
+
+        <!-- Form Section-->
+        <form name="crypto" onSubmit="return false;">
+          <div class="form-group row">
+            <button type="button" class="btn btn-primary mb-2 mt-md-4 mt-sm-2 col-sm-2 offset-sm-1 mt-1" id="crypto-get">Submit</button>
+            <div class="col-sm-8">
+              <input type="text" id="Coin" class="mt-md-4 mt-sm-2 form-control" placeholder="Enter Coin">
+            </div>
+          </div>
+        </form>
+
+        <!-- Card Section-->
+        <div class="row">
+          <div class="offset-sm-3 col-sm-6">
+            <div class="card custom-visibility">
+                <img src="" class="card-img-top img-responsive img-sizing" alt=" ">
+              <div class="card-body bg-primary text-white">
+                <h5 class="card-title crypto-title"></h5>
+                <div class="information">
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <script src="src/app.js" type="text/javascript"></script>
+    </body>
+</html>
