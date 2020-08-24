@@ -1,7 +1,7 @@
 // Constants
 const button1 = document.getElementById('crypto-get');
 const form_coin = document.getElementById('Coin');
-const api_key = 'd608eaab7d5a3963042044f04f939997';
+const api_key = ' ';
 // Selectors
 const iconElement = document.querySelector(".img-sizing");
 const titleElement = document.querySelector(".crypto-title");
