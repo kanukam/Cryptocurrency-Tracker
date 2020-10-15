@@ -12,7 +12,7 @@ const bodyElement = document.querySelector(".crypto-details");
 button1.addEventListener('click', syncData);
 
 function syncData(){
-    let coin = document.getElementById('Coin').value;
+    let coin = document.getElementById('Coin').value.toUpperCase();
     getData(coin)
         .then(data => {
             fillData(data);
